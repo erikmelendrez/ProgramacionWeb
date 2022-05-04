@@ -1,5 +1,5 @@
 body {
-    background: url("https://www.todofondos.net/wp-content/uploads/descargar-fondo-de-pantalla-4k-textura-de-papel-viejo-blanco-papel-blanco-scaled.jpg");
+    background-image: url('/Imagenes/fondo.jpg');
     background-size: contain;
     background-color: rgb(74, 79, 100);
     background-repeat: repeat;
