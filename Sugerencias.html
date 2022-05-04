@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Sugerencias</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <script>
+        function send() {
+            document.getElementById("txtarea").value = "";
+            document.getElementById("alert").style.display = 'inline';
+        }
+
+        function renew() {
+            document.getElementById("alert").style.display = 'none';
+        }
+    </script>
+    
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/30/000000/tms-tree.png" />
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <div class="container-fluid bg-secondary sticky-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-secondary container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://img.icons8.com/ios-filled/30/000000/tms-tree.png" width="30" height="30" class="d-inline-block align-top" alt=""> Sugerencias
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Paginas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.html">Home Page</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="Alimetacion.html">Transtornos de Alimentacion</a>
+                            <a class="dropdown-item" href="Personalidad.html">Transtornos de Personalidad</a>
+                            <a class="dropdown-item" href="Esquizofrenica.html">Transtornos de Esquizofrenia</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="Acerca.html">Acerca de Nosotros</a>
+                            <a class="dropdown-item" href="Sugerencias.html">Sugerencias</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Hogar<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Acerca.html">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <!-- Alert -->
+
+    <div class="container sticky-top" id="alert" style="display: none;">
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Gracias por su Sugerencia ||</strong> Su sugerencia sera recibida por los creadores.
+            <button type="button" class="close" data-dismiss="alert" onclick="renew" aria-label="Close">
+                <span>&times;</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <!-- Jumbotron -->
+
+    <center>
+        <div class="jumbotron my-5" style="width: 80%;">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h2>Sugerencias</h2>
+                    <p><strong>Gracias.</strong> Su <strong>sugerencia</strong> sera enviada y recibida por los creadores de esta pagina, recuerda que solo es un proyecto escolar y tratamos de hacerlo lo mas formal posible</p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="https://images.unsplash.com/photo-1543511309-c666bcdec9dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" width="35%">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-9">
+                    <form>
+                        <textarea cols="100" rows="10" id="txtarea"></textarea>
+                    </form>
+                </div>
+                <div class="col-sm-3">
+                    <div class="container"> <br><br><br><br>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#enviar">
+                            Enviar | <span class="badge badge-light">1</span> |
+                        </button> <br><br><br>
+                        <a href="index.html">
+                            <button type="button" class="btn btn-danger btn-sm">Regresar</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+
+
+
+    <!-- Navegación -->
+
+    <center>
+        <div class="container">
+            <a href="index.html"><button type="button" class="btn btn-outline-dark">Index</button></a>
+            <a href="Alimetacion.html"><button type="button" class="btn btn-outline-dark">Alimentación</button></a>
+            <a href="Personalidad.html"><button type="button" class="btn btn-outline-dark">Personalidad</button></a>
+            <a href="Esquizofrenica.html"><button type="button" class="btn btn-outline-dark">Esquizofrenia</button></a>
+            <a href="Acerca.html"><button type="button" class="btn btn-outline-dark">Acerca de</button></a>
+            <a href="Sugerencias.html"><button type="button" class="btn btn-outline-dark">Sugerencias</button></a>
+        </div>
+    </center> <br>
+
+
+
+    <!-- Pie de Pagina -->
+
+    <footer>
+        <div class="jumbotron">
+            <p align="center">
+                Las enfermedades o trastornos mentales son afecciones que impactan su pensamiento, sentimientos, estado de ánimo y comportamiento. Pueden ser ocasionales o duraderas (crónicas). Pueden afectar su capacidad de relacionarse con los demás y funcionar cada
+                día. <br> Para más información, recursos o investigaciones sobre los trastornos que afectan la salud mental, visite el sitio web del NIMH en <a data-toggle="modal" data-target="#nimh"> www.nimh.nih.gov </a>(inglés) o
+                <a data-toggle="modal" data-target="#nimh-index">www.nimh.nih.gov/health/publications/espanol/index.shtml</a> (español).
+                <br> El sitio web MedlinePlus de la Biblioteca Nacional de Medicina <a data-toggle="modal" data-target="#medlineplus">https://medlineplus.gov/spanish</a> también tiene información sobre una amplia variedad de trastornos mentales.
+            </p>
+            <center>
+                <a data-toggle="modal" data-target="#fb"><img src="https://img.icons8.com/office/30/000000/facebook.png" /></a>
+            </center>
+        </div>
+    </footer>
+
+
+    <!-- Modal (NIMH) -->
+    <div class="modal fade" id="nimh" tabindex="-1" role="dialog" aria-labelledby="nimh" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Estas seguro de que quieres salir?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Serás redireccionado a una pagina nueva la cual es (www.nimh.nih.gov), si no es asi haz click en el boton cerrar, si aceptas salir da click en continuar.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <a href="https://www.nimh.nih.gov"><button type="button" class="btn btn-primary">Continuar</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (NIMH-INDEX) -->
+    <div class="modal fade" id="nimh-index" tabindex="-1" role="dialog" aria-labelledby="nimh" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Estas seguro de que quieres salir?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Serás redireccionado a una pagina nueva la cual es (www.nimh.nih.gov/health/publications/espanol/index.shtml), si no es asi haz click en el boton cerrar, si aceptas salir da click en continuar.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <a href="https://www.nimh.nih.gov/health/publications/espanol/index.shtml"><button type="button" class="btn btn-primary">Continuar</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (MEDLINEPLUS) -->
+    <div class="modal fade" id="medlineplus" tabindex="-1" role="dialog" aria-labelledby="medlineplus" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Estas seguro de que quieres salir?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Serás redireccionado a una pagina nueva la cual es (https://medlineplus.gov/spanish), si no es asi haz click en el boton cerrar, si aceptas salir da click en continuar.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <a href="https://medlineplus.gov/spanish"><button type="button" class="btn btn-primary">Continuar</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (FACEBOOK) -->
+    <div class="modal fade" id="fb" tabindex="-1" role="dialog" aria-labelledby="fb" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Estas seguro de que quieres salir?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Serás redireccionado a una pagina nueva la cual es (https://www.facebook.com/Transtornos-mentales-1954851487942119), si no es asi haz click en el boton cerrar, si aceptas salir da click en continuar.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <a href="https://www.facebook.com/Transtornos-mentales-1954851487942119"><button type="button" class="btn btn-primary">Continuar</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (Enviar) -->
+    <div class="modal fade" id="enviar" tabindex="-1" role="dialog" aria-labelledby="send" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Estas seguro de que quieres enviar?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Los creadores de esta pagina podran ver tus sugerencias sobre la pagina y asi poder mejorar
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-secondary" onclick="send()" data-dismiss="modal">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Esquizofrenia</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <script>
+        function test() {
+            var point = 0;
+            document.getElementById("btnres").style.display = 'inline';
+            if (document.getElementById("1.1").checked) {
+                point = point + 5;
+            }
+            if (document.getElementById("1.2").checked) {
+                point = point + 4;
+            }
+            if (document.getElementById("1.3").checked) {
+                point = point + 3;
+            }
+            if (document.getElementById("1.4").checked) {
+                point = point + 2;
+            }
+            if (document.getElementById("1.5").checked) {
+                point = point + 1;
+            }
+            if (document.getElementById("2.1").checked) {
+                point = point + 5;
+            }
+            if (document.getElementById("2.2").checked) {
+                point = point + 4;
+
+            }
+            if (document.getElementById("2.3").checked) {
+                point = point + 3;
+            }
+            if (document.getElementById("2.4").checked) {
+                point = point + 2;
+            }
+            if (document.getElementById("2.5").checked) {
+                point = point + 1;
+            }
+            if (document.getElementById("3.1").checked) {
+                point = point + 5;
+            }
+            if (document.getElementById("3.2").checked) {
+                point = point + 4;
+
+            }
+            if (document.getElementById("3.3").checked) {
+                point = point + 3;
+            }
+            if (document.getElementById("3.4").checked) {
+                point = point + 2;
+            }
+            if (document.getElementById("3.5").checked) {
+                point = point + 1;
+            }
+            if (document.getElementById("4.1").checked) {
+                point = point + 5;
+            }
+            if (document.getElementById("4.2").checked) {
+                point = point + 4;
+
+            }
+            if (document.getElementById("4.3").checked) {
+                point = point + 3;
+            }
+            if (document.getElementById("4.4").checked) {
+                point = point + 2;
+            }
+            if (document.getElementById("4.5").checked) {
+                point = point + 1;
+            }
+            if (document.getElementById("5.1").checked) {
+                point = point + 5;
+            }
+            if (document.getElementById("5.2").checked) {
+                point = point + 4;
+            }
+            if (document.getElementById("5.3").checked) {
+                point = point + 3;
+            }
+            if (document.getElementById("5.4").checked) {
+                point = point + 2;
+            }
+            if (document.getElementById("5.5").checked) {
+                point = point + 1;
+            }
+
+            console.log("puntos : " + point);
+
+            if (point >= 20) {
+                document.getElementById("mayor").style.display = "inline";
+            }
+
+            if (point <= 20 && point >= 10) {
+                document.getElementById("medio").style.display = "inline";
+            }
+
+            if (point <= 10) {
+                document.getElementById("menor").style.display = "inline";
+            }
+
+            document.getElementById("testbtn").style.display = "none";
+        }
+    </script>
+    
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/30/000000/tms-tree.png" />
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <div class="container-fluid bg-secondary sticky-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-secondary container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://img.icons8.com/ios-filled/30/000000/tms-tree.png" width="30" height="30" class="d-inline-block align-top" alt=""> Transtorno Esquizofrenico
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Paginas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.html">Home Page</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="Alimetacion.html">Transtornos de Alimentacion</a>
+                            <a class="dropdown-item" href="Personalidad.html">Transtornos de Personalidad</a>
+                            <a class="dropdown-item" href="Esquizofrenica.html">Transtornos de Esquizofrenia</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="Acerca.html">Acerca de Nosotros</a>
+                            <a class="dropdown-item" href="Sugerencias.html">Sugerencias</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Hogar<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Acerca.html">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div><br>
+
+
+
+    <!-- Slider y Jumbotron -->
+
+    <div class="container" style="width: 80%;">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="jumbotron">
+                    <p>
+                        <font size="6">Esquizofrenia</font>
+                    </p>
+                    <p>
+                        La esquizofrenia es un trastorno mental caracterizado por la existencia de pérdida de contacto con la realidad (psicosis), alucinaciones (por lo general consistentes en oír voces), falsas creencias firmemente sostenidas, alteraciones del pensamiento y
+                        de la conducta, reducción en la expresión emocional, disminución de la motivación, deterioro de la función mental y problemas para desenvolverse en la vida de cada día, incluyendo el deterioro del trabajo, las relaciones sociales
+                        y el cuidado de uno mismo.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-5">
+                <center>
+                    <div style="width: 60%;" class="jumbotron-auto">
+                        <div id="carouselExampleIndicators" class="carousel slide my-3" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item  active">
+                                    <img class="d-block w-100" width="300px" src="https://images.unsplash.com/photo-1547312298-35d7af42a992?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80" alt="First slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p>El esquizofrénico no puede amarse a sí mismo: son muchos rivales. <br> -C. CASTELO</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" width="300px" src="https://images.unsplash.com/photo-1518957758258-cebb05097e38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80" alt="Second slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p>La pesadilla de la esquizofrenia, es no saber lo que es verdad. <br> -UNA MENTE MARAVILLOSA</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" width="300px" src="https://images.unsplash.com/photo-1574953056887-b1970bdd4506?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1533&q=80" alt="Third slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p>La esquizofrenia no puede entenderse sin comprender la desesperación. <br> -RONALD DAVID LAING</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" width="300px" src="https://images.unsplash.com/photo-1535997018565-142937b9e38d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80" alt="Third slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p>La esquizofrenia tiene sus paraísos, del mismo modo que sus infiernos y sus purgatorios. <br> -Aldous Huxley</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" width="300px" src="https://images.unsplash.com/photo-1550142873-b127a8331901?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80" alt="Third slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p>Si le hablas a dios estás rezando; si te responde tienes esquizofrenia. <br> -Thomas Szasz</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div><br>
+                </center>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Tablas -->
+
+    <center>
+        <div class="jumbotron" style="width: 80%;">
+            <h2>
+                <font size="6">Algunos Datos</font><br>
+            </h2>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="my-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Causas
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    Entre los factores que determinan que algunas personas tengan una mayor predisposición a desarrollar esquizofrenia se incluyen los siguientes:
+                                    <br>
+                                    <br>
+                                    <ul>
+                                        <li>Predisposición genetica</li>
+                                        <li>Problemas previos, posteriores o concurrentes al momento del parto</li>
+                                        <li>Infecciones del cerebro</li>
+                                        <li>Consumo de cannabis en los primeros años de la adolescencia</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="my-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Síntomas
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    La esquizofrenia puede aparecer de forma repentina, en el curso de días o semanas o, por el contrario, de forma gradual, desarrollándose a lo largo de un periodo de años. Aunque la gravedad y las características de los síntomas varían entre las diferentes
+                                    personas que padecen esquizofrenia, los síntomas suelen ser suficientemente graves para interferir con la capacidad laboral, las interacciones sociales y el autocuidado. <br>
+                                    <br> La esquizofrenia se caracteriza por síntomas psicóticos, que incluyen delirios, alucinaciones, pensamiento y lenguaje desorganizados y comportamiento extraño e inapropiado. Entre los síntomas psicóticos se incluye
+                                    una pérdida de contacto con la realidad.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Diagnóstico
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    El médico establece el diagnóstico basándose en una evaluación integral de los antecedentes y síntomas de la persona.
+                                    <br><br> La esquizofrenia se diagnostica cuando se cumplen las dos condiciones siguientes: <br><br>
+                                    <ul>
+                                        <li>Dos o más de los síntomas característicos (delirios, alucinaciones, discurso desorganizado, comportamiento desorganizado, síntomas negativos) persisten por lo menos durante 6 meses.</li>
+                                        <li>Estos síntomas provocan un deterioro significativo del funcionamiento en el trabajo, la escuela o las relaciones sociales.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="container">
+                        <div class="list-group">
+                            <p class="list-group-item list-group-item-action list-group-item-primary">Tratamientos:</p>
+                            <p class="list-group-item list-group-item-action list-group-item-dark">Antipsicóticos</p>
+                            <p class="list-group-item list-group-item-action list-group-item-secondary">Psicoterapia</p>
+                            <p class="list-group-item list-group-item-action list-group-item-light">Atención especializada coordinada</p><br>
+
+                            <p class="list-group-item list-group-item-action list-group-item-primary">Objetivos</p>
+                            <p class="list-group-item list-group-item-action list-group-item-dark">Proporcionar apoyo y con ello permitir que la persona funcione al nivel más alto posible</p>
+                            <p class="list-group-item list-group-item-action list-group-item-secondary">Reducir la gravedad de los síntomas psicóticos</p>
+                            <p class="list-group-item list-group-item-action list-group-item-light">Prevenir la recurrencia de los episodios sintomáticos y el deterioro funcional asociado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+
+
+
+    <!-- Test -->
+
+    <center>
+        <div class="jumbotron" style="width: 80%;">
+            <h2>Test de Esquizofrenia</h2>
+            <p>
+                <font size="4"> ¿Como saber si tengo esquizofrenia? </font> <br><br> Esa prueba online es para determinar si usted tiene una predisposición a la esquizofrenia. <br> La prueba para determinar una tendencia a la esquizofrenia consta de 5 preguntas. No hay
+                límite de tiempo.
+                <br> La prueba de la esquizofrenia libre fue redactada por Instiut de Psicología Social (Tyumen, Rusia). Ponse a prueba de forma gratuita! <br><br> Los resultados de las pruebas psicológicas se calculan automáticamente en función de las
+                respuestas dadas al final.
+            </p>
+            <div class="container">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#test" id="testbtn">
+                    Comenzar Test
+                </button>
+                <button type="button" class="btn btn-warning" data-toggle="modal" id="btnres" data-target="#res" style="display: none;">
+                    Ver Resultados
+                </button>
+            </div>
+        </div>
+    </center>
+
+
+
+    <!-- Navegación -->
+
+    <center>
+        <div class="container">
+            <a href="index.html"><button type="button" class="btn btn-outline-dark">Index</button></a>
+            <a href="Alimetacion.html"><button type="button" class="btn btn-outline-dark">Alimentación</button></a>
+            <a href="Personalidad.html"><button type="button" class="btn btn-outline-dark">Personalidad</button></a>
+            <a href="Esquizofrenica.html"><button type="button" class="btn btn-outline-dark">Esquizofrenia</button></a>
+            <a href="Acerca.html"><button type="button" class="btn btn-outline-dark">Acerca de</button></a>
+            <a href="Sugerencias.html"><button type="button" class="btn btn-outline-dark">Sugerencias</button></a>
+        </div>
+    </center> <br>
+
+
+
+    <!-- Pie de Pagina -->
+
+    <footer>
+        <div class="jumbotron">
+            <p align="center">
+                Las enfermedades o trastornos mentales son afecciones que impactan su pensamiento, sentimientos, estado de ánimo y comportamiento. Pueden ser ocasionales o duraderas (crónicas). Pueden afectar su capacidad de relacionarse con los demás y funcionar cada
+                día. <br> Para más información, recursos o investigaciones sobre los trastornos que afectan la salud mental, visite el sitio web del NIMH en <a data-toggle="modal" data-target="#nimh"> www.nimh.nih.gov </a>(inglés) o
+                <a data-toggle="modal" data-target="#nimh-index">www.nimh.nih.gov/health/publications/espanol/index.shtml</a> (español).
+                <br> El sitio web MedlinePlus de la Biblioteca Nacional de Medicina <a data-toggle="modal" data-target="#medlineplus">https://medlineplus.gov/spanish</a> también tiene información sobre una amplia variedad de trastornos mentales.
+            </p>
+            <center>
+                <a data-toggle="modal" data-target="#fb"><img src="https://img.icons8.com/office/30/000000/facebook.png" /></a>
+            </center>
+        </div>
+    </footer>
+
+
+    <!-- Modal (NIMH) -->
+    <div class="modal fade" id="nimh" tabindex="-1" role="dialog" aria-labelledby="nimh" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Estas seguro de que quieres salir?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Serás redireccionado a una pagina nueva la cual es (www.nimh.nih.gov), si no es asi haz click en el boton cerrar, si aceptas salir da click en continuar.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <a href="https://www.nimh.nih.gov"><button type="button" class="btn btn-primary">Continuar</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (NIMH-INDEX) -->
+    <div class="modal fade" id="nimh-index" tabindex="-1" role="dialog" aria-labelledby="nimh" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Estas seguro de que quieres salir?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Serás redireccionado a una pagina nueva la cual es (www.nimh.nih.gov/health/publications/espanol/index.shtml), si no es asi haz click en el boton cerrar, si aceptas salir da click en continuar.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <a href="https://www.nimh.nih.gov/health/publications/espanol/index.shtml"><button type="button" class="btn btn-primary">Continuar</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (MEDLINEPLUS) -->
+    <div class="modal fade" id="medlineplus" tabindex="-1" role="dialog" aria-labelledby="medlineplus" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Estas seguro de que quieres salir?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Serás redireccionado a una pagina nueva la cual es (https://medlineplus.gov/spanish), si no es asi haz click en el boton cerrar, si aceptas salir da click en continuar.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <a href="https://medlineplus.gov/spanish"><button type="button" class="btn btn-primary">Continuar</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (FACEBOOK) -->
+    <div class="modal fade" id="fb" tabindex="-1" role="dialog" aria-labelledby="fb" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Estas seguro de que quieres salir?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Serás redireccionado a una pagina nueva la cual es (https://www.facebook.com/Transtornos-mentales-1954851487942119), si no es asi haz click en el boton cerrar, si aceptas salir da click en continuar.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <a href="https://www.facebook.com/Transtornos-mentales-1954851487942119"><button type="button" class="btn btn-primary">Continuar</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (TEST) -->
+    <div class="modal fade" id="test" tabindex="-1" role="dialog" aria-labelledby="test" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                        <center>Test para Evaluación</center>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <div class="jumbotron">
+                            <form>
+                                <label>1.- No puede obligarse a hacer cualquier trabajo importante, y mata el tiempo. Por ejemplo, navegando por la red o jugando al solitario, como si esperara algo.</label>
+                                <br>
+                                <input type="radio" id="1.1"> Siempre <br>
+                                <input type="radio" id="1.2"> A menudo <br>
+                                <input type="radio" id="1.3"> De vez en cuando <br>
+                                <input type="radio" id="1.4"> Raramente <br>
+                                <input type="radio" id="1.5"> Nunca <br>
+                                <hr>
+
+                                <label>2.- Nota que su memoria es cada vez peor. Puede olvidar sus planes para el futuro próximo o inmediato, y es consciente de este hecho sólo en el último momento o cuando alguien se lo recuerda.</label>
+                                <br>
+                                <input type="radio" id="2.1"> Siempre <br>
+                                <input type="radio" id="2.2"> A menudo <br>
+                                <input type="radio" id="2.3"> De vez en cuando <br>
+                                <input type="radio" id="2.4"> Raramente <br>
+                                <input type="radio" id="2.5"> Nunca <br>
+                                <hr>
+
+                                <label>3.- Antes de comenzar a trabajar, pierde mucho tiempo dando vueltas en su habitación, mordiéndose las uñas o haciendo zapping frente al televisor.</label>
+                                <br>
+                                <input type="radio" id="3.1"> Siempre <br>
+                                <input type="radio" id="3.2"> A menudo <br>
+                                <input type="radio" id="3.3"> De vez en cuando <br>
+                                <input type="radio" id="3.4"> Raramente <br>
+                                <input type="radio" id="3.5"> Nunca <br>
+                                <hr>
+
+                                <label>4.- No se inmuta ante estímulos negativos. Por ejemplo, cuando ve imágenes de animales torturados no se siente molesto, incluso se siente tranquilo.
+                                </label>
+                                <br>
+                                <input type="radio" id="4.1"> Siempre <br>
+                                <input type="radio" id="4.2"> A menudo <br>
+                                <input type="radio" id="4.3"> De vez en cuando <br>
+                                <input type="radio" id="4.4"> Raramente <br>
+                                <input type="radio" id="4.5"> Nunca <br>
+                                <hr>
+
+                                <label>5.- A veces canta cuando está solo, o repite el estribillo de la canción en su mente, una y otra vez. Sin preocuparse por no recordar algunas palabras de las canciones que canta.</label>
+                                <br>
+                                <input type="radio" id="5.1"> Siempre <br>
+                                <input type="radio" id="5.2"> A menudo <br>
+                                <input type="radio" id="5.3"> De vez en cuando <br>
+                                <input type="radio" id="5.4"> Raramente <br>
+                                <input type="radio" id="5.5"> Nunca
+                            </form>
+                        </div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="test()">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal (TEST-RESULT) -->
+    <div class="modal fade" id="res" tabindex="-1" role="dialog" aria-labelledby="res" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Resultados</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <p id="mayor" style="display: none;"> Presenta una predisposición a la esquizofrenia. Tal vez debería ver a un psiquiatra o pensar en realizar algunos cambios importantes en su estilo de vida – aún está a tiempo. Además, este resultado tan elevado no indica necesariamente
+                            un aumento del riesgo de sufrir esquizofrenia. También es posible que la causa por la cual excede el intervalo normal, se trate de factores tales como el abuso de alcohol a largo plazo, el estrés constante, creciente depresión
+                            o un shock traumático. Es importante indicar que esta prueba no mide muchos de los factores fisiológicos que tienen una influencia decisiva en el resultado del diagnóstico. Al mismo tiempo, si respondió honestamente a todas
+                            las preguntas, el resultado de la prueba le da una razón para pensar acerca de su estilo de vida y aprender más sobre su propia personalidad.
+                        </p>
+                        <p id="medio" style="display: none;">
+                            Su resultado se encuentra en la parte superior del rango de valores normales. Esto puede reflejar las posibles tendencias negativas en el futuro debido a la intensificación de los efectos sobre su personalidad de los factores que influyen en que está
+                            expuesto en su vida diaria. Este resultado también muestra que es muy probable que este expuesto a altos índices de estrés. Esto puede deberse a que su cuerpo haya acumulado mucha fatiga, y debe comprender que debe deshacerse
+                            de ella. Aunque, aparentemente no presenta una predisposición a la esquizofrenia. Es importante entender que esta prueba no mide muchos de los factores fisiológicos que tienen una influencia decisiva en el resultado del diagnóstico.
+                            Al mismo tiempo, si respondió honestamente a todas las preguntas, el resultado de la prueba le da una razón para pensar acerca de su estilo de vida y para aprender más acerca de su propia personalidad.
+                        </p>
+                        <p id="menor" style="display: none;">
+                            Su resultado se considera normal. Parece no tener predisposición a la esquizofrenia, así como a otros trastornos psiquiátricos. Lo más probable es que esté satisfecho con su actual estilo de vida, que rara vez se encuentre sujeto a la depresión y sea
+                            bastante resistente a la tensión, y no se vea afectado por los cambios repentinos en el estado de ánimo. Hemos de mantener estos hábitos de vida, de este modo evitaremos la predisposición a la esquizofrenia. Es importante entender
+                            que esta prueba no mide muchos de los factores fisiológicos que tienen una influencia decisiva en el resultado del diagnóstico. Al mismo tiempo, si respondió honestamente a todas las s, el resultado de la prueba le da una razón
+                            para pensar acerca de su estilo de vida y para aprender más acerca de su propia personalidad.
+                        </p>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" style="display: none;">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+</html>
